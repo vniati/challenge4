@@ -97,11 +97,13 @@ img {
   padding-bottom: 7em;
 }
 
+
 .article1 article {
   display: inline-block;
-  width: 397px;
+  max-width: 33%;
   text-align: center;
 }
+
 
 .article1 p {
   padding-bottom: 3em;
@@ -150,7 +152,7 @@ img {
 
 .article2 article {
   display: inline-block;
-  width: 297px;
+  max-width: 24%;
   text-align: center;
 }
 
@@ -162,7 +164,6 @@ img {
 
 .backcontact {
   margin: auto;
-  height: 18em;
   background-color: #e3f0f7;
   margin-top: 5em;
 }
@@ -224,4 +225,28 @@ img {
   width: 1.5em;
   padding-top: 0.23em;
   margin-top: 2em;
+}
+
+@media (max-width: 700px) {
+  .article1 article {
+    display: inline;
+  }
+
+  .article1 article h3 {
+    margin-top: 1em;
+  }
+
+  .article2 article {
+    display: inline;
+  }
+
+  .article2 article h4 {
+    margin-top: 1em;
+  }
+
+  .divcont {
+    display: inline;
+  }
+
+
 }
